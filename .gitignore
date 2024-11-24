@@ -1,0 +1,24 @@
+# Django-specific files
+*.sqlite3
+*.db
+db.sqlite3
+db.sqlite
+local_settings.py
+
+
+# Virtual environment
+.env/
+
+# Test-specific files
+*.pyc
+__pycache__/
+tests/
+*.pytest_cache
+
+# IDE-specific files
+*.vscode/
+
+# Misc
+*.log
+*.pot
+*.mo
